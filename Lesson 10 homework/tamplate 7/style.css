@@ -1,0 +1,393 @@
+.backgraund {
+    background-color: rgb(35, 35, 35);
+}
+
+.logoNav {
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    width: 310px;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.logo img {
+    display: inline-block;
+    width: 80px;
+}
+
+.name {
+    width: 225px;
+    float: right;
+}
+
+.bigName {
+    color: white;
+    display: inline-block;
+    font-size: 70px;
+    margin-top: -5px;
+}
+
+.smallName {
+    color: rgb(159, 156, 156);
+    margin-top: -18px;
+    display: inline-block;
+    font-size: 21px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    padding: 50px 20px 20px 20px;
+}
+
+.nav a:hover {
+    background-color: black;
+}
+
+.contback {
+    background-color: rgb(96, 96, 96);
+    border: 1px solid transparent;
+}
+
+.cont {
+    width: 70%;
+    margin: 5px auto;
+    display: flex;
+}
+
+.business {
+    background-color: orangered;
+    color: white;
+    font-size: 40px;
+    width: 25%;
+    padding: 80px 0px 0 20px;
+    border-radius: 10px;
+}
+
+.images {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cubs {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cub {
+    width: 25%;
+    margin-left: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.cub h2 {
+    color: white;
+}
+
+.cub1 {
+    padding: 10px 0 10px 15px;
+    background-color: rgb(21, 21, 21);
+}
+
+.cub1 ul,
+.cub1 a {
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0;
+    color: rgb(159, 156, 156);
+}
+
+.cub1 ul li {
+    margin-top: 7px;
+}
+
+.readMore {
+    color: white;
+}
+
+.cub2 {
+    color: rgb(159, 156, 156);
+    padding: 10px 0 10px 15px;
+    background-color: rgb(29, 27, 27);
+}
+
+.cub3 {
+    padding: 10px 0 10px 15px;
+    background-color: rgb(40, 38, 38);
+}
+
+.cub3 ul,
+.cub3 a {
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0;
+    color: rgb(159, 156, 156);
+}
+
+.cub3 ul li {
+    margin-top: 7px;
+}
+
+.cub4 {
+    padding: 10px 0 10px 15px;
+    background-color: rgb(53, 51, 51);
+}
+
+.cub4 ul,
+.cub4 a {
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0;
+    color: rgb(159, 156, 156);
+}
+
+.cub4 ul li {
+    margin-top: 7px;
+}
+
+.blocks {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.leftBlock {
+    width: 25%;
+}
+
+.leftBlock h2 {
+    color: rgb(159, 156, 156);
+}
+
+.leftBlock ul {
+    padding: 0;
+    list-style: none;
+    width: 80%;
+}
+
+.leftBlock ul li {
+    border-bottom: 1px solid rgb(159, 156, 156);
+    ;
+    color: rgb(210, 210, 210);
+    padding: 5px 0;
+}
+
+.leftBlock ul li img {
+    width: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.leftBlock form {
+    margin-top: 90px;
+}
+
+.leftBlock input,
+.leftBlock select {
+    width: 80%;
+    padding: 5px 10px;
+    background-color: rgb(47, 42, 42);
+    color: rgb(210, 210, 210);
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.leftBlock .buttons {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.but1 {
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.but2 {
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.rightBlokBack {
+    width: 75%;
+}
+
+.rightBlock {
+    width: 95%;
+    float: right;
+}
+
+.welcome {
+    margin-top: 20px;
+    border-radius: 15px;
+    color: rgb(159, 156, 156);
+    background-color: rgb(40, 38, 38);
+    padding: 20px;
+}
+
+.finansing {
+    color: rgb(159, 156, 156);
+}
+
+.examples {
+    display: flex;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgb(159, 156, 156);
+}
+
+.examples img {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.example {
+    width: 34%;
+    margin-left: 20px;
+}
+
+.example b {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.example ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(159, 156, 156);
+}
+
+.example ul a {
+    color: orangered;
+}
+
+.example ul li {
+    margin-top: 14px;
+}
+
+.footer {
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px 0 20px 10px;
+    background-color: rgb(36, 34, 34);
+}
+
+.call {
+    width: 210px;
+}
+
+.call img {
+    display: inline-block;
+    width: 50px;
+}
+
+.callText {
+    margin-top: 5px;
+    float: right;
+}
+
+.text {
+    color: rgb(159, 156, 156);
+}
+
+.number {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1285px) {
+    .logo {
+        margin: 30px auto;
+    }
+
+    .nav {
+        float: none;
+    }
+    
+    .cont {
+        flex-direction: column;
+    }
+
+    .business {
+        width: 100%;
+    }
+
+    .images{
+        width: 100%;
+    }
+    .cubs{
+        flex-wrap: wrap;
+    }
+    .cub{
+        margin-top: 10px;
+        width: 45%;
+    }
+    .blocks{
+        flex-wrap: wrap;
+    }
+    .rightBlock{
+        width: 100%;
+    }
+    .leftBlock{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+ .nav{
+    flex-wrap: wrap;
+ }
+ .nav a{
+    width: 100%;
+ }
+ .cub{
+    width: 100%;
+ }
+ .examples{
+    flex-wrap: wrap;
+ }
+ .example{
+    width: 100%;
+    margin: 10px 0px;
+ }
+}
